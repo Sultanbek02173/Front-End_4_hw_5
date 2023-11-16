@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+
+    height: 100%;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    width: 350px;
+    height: 550px;
+    background-color: #808080a8;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+    #timer {
+        font-size: 37px;
+        font-weight: 800;
+        margin-top: 25px;
+
+    }
+
+    #counter {
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+    #cliker {
+        padding: 20px;
+        border: 0;
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        font-size: 30px;
+        box-shadow: 0 8px 20px -5px rgba(0, 0, 00.55);
+        outline: none;
+        cursor: pointer;
+        background: orange;
+
+
+        &:active {
+            box-shadow: 0 0px 10px rgba(0, 0, 0, 0.55) inset;
+        }
+    }
+
+    #clikerRE {
+        padding: 15px;
+        border: 0;
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        font-size: 20px;
+        text-align: center;
+        box-shadow: 0 8px 20px -5px rgba(0, 0, 00.55);
+        outline: none;
+        cursor: pointer;
+        background: orange;
+
+
+        &:active {
+            box-shadow: 0 0px 10px rgba(0, 0, 0, 0.55) inset;
+        }
+    }
+
+}
